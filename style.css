@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+
+}
+#show_sketch {
+    padding: 10px;
+    float: right;
+}
+#Heading {
+    color: darkslategrey;
+}
+canvas{
+    background-color: cornsilk;
+    border: 5px grey;
+    margin-top: 50px;
+    animation-name: sketch ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sketch{
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px black;}
+}
